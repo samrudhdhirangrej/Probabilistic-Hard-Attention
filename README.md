@@ -85,5 +85,5 @@ python3 main.py \
 The top row shows the entire image and the *EIG* maps for *t=1* to *6*. The bottom row shows glimpses attended by our model. The model observes the first glimpse at a random location. Our model observes a glimpse of size *8x8*. The glimpses overlap with the stride of 4, resulting in a *7x7* grid of glimpses. The EIG maps are of size *7x7* and are upsampled for the display. We display the entire image for reference; our model never observes the whole image.
 
 ## Acknowledgement
-Major parts of neural spline flows implementation are borrowed Karpathy's [pytorch-normalizing-flows](https://github.com/karpathy/pytorch-normalizing-flows).
+Major parts of neural spline flows implementation are borrowed from Karpathy's [pytorch-normalizing-flows](https://github.com/karpathy/pytorch-normalizing-flows).
 
